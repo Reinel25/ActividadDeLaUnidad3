@@ -5,7 +5,9 @@ public class MainError {
         Animal miAnimal = new Perro();
         miAnimal.hacerSonido();
 
+
+        //miAnimal.correr();
+
         // Intento malo, no compila porque el la clase base no tienen el metodo correr
-        miAnimal.correr();
     }
 }
